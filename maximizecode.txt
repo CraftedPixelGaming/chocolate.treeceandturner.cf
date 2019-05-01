@@ -1,0 +1,16 @@
+							//JS
+$(this).parent().parent().addClass('fullSizeWindow');
+
+<span title="Maximize" class="winmaximize">
+							//CSS
+.winmaximize > span {
+	border: 2px solid #000;
+	border-top: 3px solid #000;
+}
+.winmaximize > span:nth-child(2) {
+	display: none;
+}
+
+
+colour:
+#b7b7e0
